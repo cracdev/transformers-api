@@ -17,7 +17,7 @@ node index.js
 ## Usage
 
 ```Test Api
-copy this https://transformers-api-jkvdudyxot.now.sh
+copy this https://api-transformers.crac.dev
 ```
 ## Other
-This library was developed by [me](https://twitter.com/kirev)
+This library was developed by [me](https://twitter.com/cracdev)
