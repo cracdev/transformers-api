@@ -13,13 +13,10 @@ import { startServer } from './server';
 // For Vercel deployment, export the Express app
 const app = createApp();
 
-// Start the application only when not running in Vercel
-if (process.env.VERCEL !== '1') {
-  startServer().catch(error => {
-    console.error('Failed to start application:', error);
-    process.exit(1);
-  });
-}
+startServer().catch(error => {
+  console.error('Failed to start application:', error);
+  process.exit(1);
+});
 
 // Export main components for testing and external use
 export { createApp } from './app';
