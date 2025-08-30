@@ -1,0 +1,17 @@
+node_modules
+.git
+.env.example
+.DS_Store
+*.log
+coverage
+dist
+tests
+*.md
+.prettierrc.json
+.prettierignore
+.lintstagedrc.json
+.husky
+eslint.config.js
+vitest.config.ts
+tsconfig.check.json
+package-lock.json
